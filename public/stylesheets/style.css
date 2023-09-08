@@ -139,7 +139,7 @@ table {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  resize: vertical; /* ユーザーが縦にテキストエリアを拡大/縮小できるようにします。 */
+  resize: vertical; 
 }
 
 button {
@@ -176,8 +176,9 @@ button:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* 以下のスタイルはコメントが多くなった場合のスクロールのためのものです */
+
 .comment-indication {
   max-height: 500px;
   overflow-y: auto;
 }
+
